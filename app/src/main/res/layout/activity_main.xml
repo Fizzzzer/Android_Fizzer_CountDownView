@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fizzer.doraemon.countdownview.MainActivity">
+
+
+    <com.fizzer.doraemon.countdownview.CountDownView
+        android:id="@+id/button"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
